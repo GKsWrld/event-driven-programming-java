@@ -1,6 +1,6 @@
 # Event-Driven Programming in Java
 
-Coursework and self-paced practical activities for Event-Driven Programming (Weeks 1–7), built with Java, Swing, and JavaFX in VS Code.
+Coursework, practicals, and final capstone project for Event-Driven Programming (Weeks 1–10), built with Java, Swing, and JavaFX in VS Code.
 
 ## Repository Structure
 
@@ -11,23 +11,22 @@ Coursework and self-paced practical activities for Event-Driven Programming (Wee
 - `week05-advanced-swing/` — `JList` custom renderer, `JTable` with custom GPA rendering, `JTree` + `JTabbedPane` explorer, `MiniEditor` with menus/toolbar/`JFileChooser`, and Capstone `FileManager`.
 - `week06-javafx/` — Maven JavaFX project: programmatic `App`, `LayoutDemo` (`HBox`, `VBox`, `GridPane`, `BorderPane`), FXML `login.fxml` + `LoginController` + `FXMLApp`, and Capstone `DashboardApp`.
 - `week07-javafx-events/` — Maven JavaFX project: `EventPropagationDemo` (filters vs. handlers), `MouseKeyDemo`, `DragDropDemo`, and custom `LoginSuccessEvent` + `CustomEventDemo`.
+- `week08-javafx-bindings/` — Maven JavaFX project: observable `Person` properties, `ListenerDemo`, `UnidirectionalDemo`, `BidirectionalDemo`, and `ReactiveFormApp`.
+- `week09-async-javafx/` — Maven JavaFX project: `FreezeDemo`, `TaskDemo`, `ProgressDemo`, and restartable/cancellable `ServiceDemo`.
+- `week10-university-system/` — Final Capstone (`UniversitySystem`): JavaFX + FXML + Properties/Bindings + async MySQL `Task`s + `ScheduledExecutorService` heartbeat.
 
 ## Running the Activities (Requires JDK 17+)
 
 ### Swing / Plain Java (Weeks 1–5)
-Navigate into an activity folder and compile/run with `javac` and `java`, for example:
-
 ```powershell
 cd week05-advanced-swing\activity5-capstone-file-manager
 javac FileManager.java
 java FileManager
 ```
 
-### JavaFX with Maven (Weeks 6–7, Requires Maven + JDK 17+)
-Navigate into `week06-javafx` or `week07-javafx-events` and run with `mvn javafx:run`:
-
+### JavaFX with Maven (Weeks 6–10, Requires Maven + JDK 17+)
 ```powershell
-cd week06-javafx
+cd week08-javafx-bindings
 mvn clean javafx:run
-mvn clean javafx:run -Djavafx.mainClass=com.example.DashboardApp
+mvn clean javafx:run -Djavafx.mainClass=com.example.UnidirectionalDemo
 ```

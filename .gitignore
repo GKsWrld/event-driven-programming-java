@@ -8,6 +8,9 @@
 target/
 week06-javafx/target/
 week07-javafx-events/target/
+week08-javafx-bindings/target/
+week09-async-javafx/target/
+week10-university-system/target/
 
 # NetBeans / IDE build artifacts
 build/
