@@ -4,6 +4,11 @@
 *.war
 *.ear
 
+# Maven output
+target/
+week06-javafx/target/
+week07-javafx-events/target/
+
 # NetBeans / IDE build artifacts
 build/
 dist/
