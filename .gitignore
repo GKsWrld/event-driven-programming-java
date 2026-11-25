@@ -1,0 +1,17 @@
+# Compiled Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans / IDE build artifacts
+build/
+dist/
+nbproject/private/
+
+# VS Code Java generated output
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
